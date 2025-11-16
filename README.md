@@ -18,8 +18,8 @@ The website focuses on luxury design, smooth user experience, and clear product 
 
 ## 🛠️ Technologies Used
 - **HTML5**  
-- **CSS** (Flexbox, Grid, Animations)  
-- **JavaScript** (Dynamic content, interactivity)  
-- (Optional) **jQuery** for some effects  
-- (Optional) **Font Awesome** for icons
+- **CSS**  
+- **JavaScript** 
+- **jQuery** for some effects  
+- **Font Awesome** for icons
 
