@@ -1,0 +1,321 @@
+body{
+box-sizing: border-box;
+margin:0;
+
+}
+button{
+    cursor: pointer;
+}
+img{
+   transition: transform 0.2s ease; 
+}
+.wrapper{
+width: 100%;
+
+}
+
+header {
+ background-image: url(../images/background-img.jpg); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ height:1000px; 
+ 
+
+}
+.header-desc{
+padding-top: 200px;
+text-align: center;
+font-size: xx-large;
+
+}
+header p ,h1 {
+   margin: 0;
+   color: white;
+}
+.menu-container {
+    position: relative;
+}
+.menu-icon{
+    display: none;
+    float: right;
+    font-size: xxx-large;
+    margin-right: 20px;
+    margin-top: -15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.slack-menu {
+    display: block; 
+    position: absolute;
+    padding-top: -20px;
+     right: 60px;
+
+  }
+  .slack-menu a {
+    display: inline-block;
+    padding-right: 100px;
+    color: #161719;
+    text-decoration: none;
+    font-weight: bold;
+   font-size: x-large;
+  }
+   .slack-menu a:hover {
+    background-color: #f3f4f6;
+    color: orangered;
+  }
+.logo h2{
+    color: white;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.learn-more{
+    color: white;
+    background-color: rgb(233, 67, 7);
+    font-weight: bold;
+    border: 0;
+    height: 50px;
+    
+}
+
+.about-us{
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    border-style: revert-layer;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+.interest{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.how-does-it-work{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.informations{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 150px;
+   
+}
+.info{
+    margin-right: 200px;
+    margin-top: 20px;
+}
+.jewelery{
+   background-color: #ebe7e8;
+   display: flex;
+   justify-content:center;
+   height: 300px;
+  
+  
+}
+
+.jewelery-ring-slider {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  margin: auto;
+ 
+  border-radius: 10px;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+.prev,.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev { 
+    left: 10px; 
+}
+.next {
+     right: 10px; 
+}
+
+.prev:hover, .next:hover {
+  background: black;
+}
+
+.jewelery-desc{
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.why-choose-we{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    text-align: center;
+    
+}
+.why-choose-we h2{
+    padding-top: 60px;
+    font-size: xx-large;
+}
+.reasons{
+    display: flex;
+ 
+
+}
+.reason{
+margin-top: 50px;
+}
+
+.container{
+    margin-right: 60px;
+}
+
+.our-jewelery{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.image-container1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    justify-content: center;
+}
+.our-jewelery-img img{
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+.our-jewelery-txt{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.image-container2 h4{
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    font-size: x-large;
+}
+.comments-our-customer{
+    background-color: #ebe7e8;
+
+}
+.comments-txt{
+    text-align: center;
+}
+.comment h3{
+    display: inline;
+}
+.comments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.photo-blog img{
+    width: 300px;
+    height: 200px;
+}
+.photo-blog h3{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-right: px;
+    margin-right: 100px;
+}
+.photo-blog1{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.photo-blog2{
+    display: flex;
+    justify-content: end;
+   
+}
+.photo-blog-txt{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+.photo-blog{
+    margin-top: 50px;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content:space-between ;
+   
+}
+footer h5{
+    color: white;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.about{
+    display: flex;
+    color: grey;
+    margin-left: 50px;
+    
+
+}
+footer i{
+    color: gray;
+    margin-top: 50px;
+    margin-right: 20px;
+    
+}
+.scroll-top{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-right: 50px;
+    cursor: pointer;
+    display: none; 
+}
+.scroll-top:hover{
+    background-color:black;
+    color: white;
+}
+
+
+
+
+/*smart phones & tablets*/
+@media (min-width:481px) and (max-width:767px){
+.menu-icon{
+    display: block;
+}
+
+.slack-menu{
+    display: none;
+}
+}
