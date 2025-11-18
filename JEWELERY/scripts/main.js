@@ -67,8 +67,10 @@ $(document).ready(function(){
 let topBtn = document.getElementById("topBtn");
 
 
+let showHeight = 800;   
+
 window.onscroll = function () {
-  if (window.scrollY > 200) {
+  if (window.scrollY >= showHeight) {
     topBtn.style.display = "block";
   } else {
     topBtn.style.display = "none";
@@ -98,4 +100,5 @@ document.getElementById("prev").onclick = function () {
   slides[index].classList.remove("active");
   index = (index - 1 + slides.length) % slides.length;
   slides[index].classList.add("active");
+
 };
